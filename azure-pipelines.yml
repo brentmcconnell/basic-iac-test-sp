@@ -18,7 +18,7 @@ jobs:
     inputs:
       azureSubscription: 'PROJECT-EBM-RG'
       KeyVaultName: '$(AZURE_KEYVAULT_NAME)'
-      SecretsFilter: 'SP-CLIENTID,SP-PASSWORD,SP-TENANTID,SP-SUBSCRIPTIONID,SA-ACCESS-KEY
+      SecretsFilter: 'SP-CLIENTID,SP-PASSWORD,SP-TENANTID,SP-SUBSCRIPTIONID,SA-ACCESS-KEY'
     displayName: 'Get key vault secrets'
 
   # TERRAFORM VERSION
